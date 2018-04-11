@@ -100,7 +100,7 @@ title {
 
 
 .backdrop {
-	background: rgba(0,0,0,.12);
+	background: #2196f3;
 	height: 23px;
 	width: 100%;
 	position: absolute;
@@ -118,8 +118,8 @@ title {
 }
 
 .column-phase h3 {
-	background: rgba(0,0,0,.12);
-	color: #444;
+	background: #2196f3;
+	color: #fff;
 	padding: 10px;
 	margin: 10px -10px 10px -10px;
 	text-align: center;
@@ -181,7 +181,7 @@ title {
 }
 
 .board-header p {
-	margin: 6px 0;
+	margin: 8px 0;
 }
 
 
@@ -252,7 +252,8 @@ li a, .dropbtn {
     display: inline-block;
     color: #ccc;
     text-align: center;
-    margin: 10px;
+    font-size: 16px;
+    margin: 10px 0;
     padding: 10px;
     text-decoration: none;
 }
