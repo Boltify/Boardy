@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	color: #253858;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text] {
+	border: 2px solid #F4F5F7;
+	border-radius: 3px;
+	background-color: #F4F5F7;
+	margin: 10px;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #253858;
+	font-weight: bold;
+}
+
+
+title {
+	background-color: #444;
+	color: #fff;
+}
+
+.actionbar {
+	font-size: 14px;
+	color: #253858;
+	font-weight: bold;
+	margin: 6px;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+}
+
+.button-information {
+    background-color: #253858;
+    color: #F4F5F7;
+    border: 2px solid #253858;
+	border-radius: 3px;
+}
+
+.button-information:hover {
+    background-color: #253858;
+    color: #F4F5F7;
+}
+
+
+.navbar {
+    background-color: #253858;
+    position: static;
+    top: 0;
+	height: 60px;
+}
+
+.container {
+	display: flex;
+	cursor: pointer;
+	margin: 4px;
+}
+
+.container-buttons {
+	margin: 4px;
+}
+
+
+.column {
+	flex: 1;
+	margin: 4px;
+	background-color: #F4F5F7;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.board {
+	border-left: 3px solid orange;
+	margin: 4px;
+	background-color: #fff;
+	box-shadow: 2px 2px rgba(0,0,0,.12);
+	padding: 3px;
+	box-shadow: 2px 2px rgba(0,0,0,.12);
+}
+
+.board-header {
+	font-weight: bold;
+	text-transform: none;
+}
+
+
+.board-header, .board-main, .board-footer {
+	padding: 0 5px;
+}
+
+.board-footer {
+}
+
+.board-footer-date {
+	text-align: right;
+	float: right;
+	font-size: 10px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.board-footer img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+
+.status-information {
+	border-left: 3px solid #2196f3;
+}
+
+.status-warning {
+	border-left: 3px solid #ffc107;
+}
+
+.status-success {
+	border-left: 3px solid #4caf50;
+}
+
+.status-alert {
+	border-left: 3px solid #ff5252;
+}
+
+.pull-left {
+	display: block;
+	float: left;
+	text-align: left;
+}
+
+.pull-right {
+	margin-left: 10px;
+	display: block;
+	float: right;
+	text-align: right;
+}
+
+
+
+
